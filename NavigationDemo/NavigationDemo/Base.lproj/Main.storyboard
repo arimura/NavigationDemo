@@ -349,18 +349,30 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TiA-zk-c8Q" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ju-hc-JZU">
+                                                <rect key="frame" x="99" y="20" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="3Ju-hc-JZU" firstAttribute="centerX" secondItem="TiA-zk-c8Q" secondAttribute="centerX" id="C0D-EW-0JS"/>
                                             <constraint firstAttribute="height" constant="1500" id="eep-xk-5hE"/>
+                                            <constraint firstItem="3Ju-hc-JZU" firstAttribute="top" secondItem="TiA-zk-c8Q" secondAttribute="top" constant="20" id="yPX-ZF-EJ9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="TiA-zk-c8Q" firstAttribute="top" secondItem="55o-AE-mTH" secondAttribute="top" id="0Tm-9f-4de"/>
                                     <constraint firstItem="TiA-zk-c8Q" firstAttribute="leading" secondItem="55o-AE-mTH" secondAttribute="leading" id="7dP-jL-hwS"/>
+                                    <constraint firstItem="TiA-zk-c8Q" firstAttribute="top" secondItem="Xun-Ie-OSN" secondAttribute="top" constant="20" id="A0j-0i-Jm3"/>
                                     <constraint firstItem="TiA-zk-c8Q" firstAttribute="width" secondItem="Xun-Ie-OSN" secondAttribute="width" multiplier="0.610687" id="AM2-e0-DSs"/>
                                     <constraint firstItem="TiA-zk-c8Q" firstAttribute="trailing" secondItem="55o-AE-mTH" secondAttribute="trailing" constant="240" id="QvH-DW-HeW"/>
                                     <constraint firstItem="TiA-zk-c8Q" firstAttribute="bottom" secondItem="55o-AE-mTH" secondAttribute="bottom" constant="128" id="ois-RO-rRn"/>
+                                    <constraint firstItem="TiA-zk-c8Q" firstAttribute="centerX" secondItem="nF5-BM-ZUv" secondAttribute="centerX" id="wFZ-vW-Woc"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="55o-AE-mTH"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Xun-Ie-OSN"/>
