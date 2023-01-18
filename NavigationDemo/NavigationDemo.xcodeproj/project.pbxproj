@@ -17,6 +17,7 @@
 		74F14547297693C900D0E1F3 /* NavigationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F14546297693C900D0E1F3 /* NavigationDemoUITests.swift */; };
 		74F14549297693C900D0E1F3 /* NavigationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F14548297693C900D0E1F3 /* NavigationDemoUITestsLaunchTests.swift */; };
 		74F14558297781A800D0E1F3 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F14557297781A800D0E1F3 /* MyTableViewController.swift */; };
+		74F1455A29778D5600D0E1F3 /* MyScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F1455929778D5600D0E1F3 /* MyScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		74F14546297693C900D0E1F3 /* NavigationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoUITests.swift; sourceTree = "<group>"; };
 		74F14548297693C900D0E1F3 /* NavigationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		74F14557297781A800D0E1F3 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		74F1455929778D5600D0E1F3 /* MyScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				74F14527297693C600D0E1F3 /* SceneDelegate.swift */,
 				74F14529297693C600D0E1F3 /* ViewController.swift */,
 				74F14557297781A800D0E1F3 /* MyTableViewController.swift */,
+				74F1455929778D5600D0E1F3 /* MyScrollViewController.swift */,
 				74F1452B297693C600D0E1F3 /* Main.storyboard */,
 				74F1452E297693C800D0E1F3 /* Assets.xcassets */,
 				74F14530297693C800D0E1F3 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				74F1452A297693C600D0E1F3 /* ViewController.swift in Sources */,
 				74F14526297693C600D0E1F3 /* AppDelegate.swift in Sources */,
 				74F14528297693C600D0E1F3 /* SceneDelegate.swift in Sources */,
+				74F1455A29778D5600D0E1F3 /* MyScrollViewController.swift in Sources */,
 				74F14558297781A800D0E1F3 /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
